@@ -8,4 +8,15 @@ public class TreeNode {
     public TreeNode (int data) {
         this.data = data;
     }
+
+    public TreeNode(int data, TreeNode left) {
+        this.data = data;
+        this.left = left;
+    }
+
+     public TreeNode(int data, TreeNode right) {
+        this.data = data;
+        this.left = left;
+        this.right = right;
+     }
 }
